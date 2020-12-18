@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { AddGameScoreModalComponent } from './add-game-score-modal.component';
 import { FormsModule } from "@angular/forms";
 import { DataService } from "../../../core/data.service";
-import { BsModalRef } from "ngx-bootstrap";
+import { BsModalRef } from "ngx-bootstrap/modal";
 import { Game } from "../../game";
 
 describe('AddGameScoreModalComponent', () => {

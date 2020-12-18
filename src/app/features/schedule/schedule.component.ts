@@ -3,7 +3,7 @@ import {Component, OnInit} from '@angular/core';
 import {DataService} from '../../core/data.service';
 import {FbUser} from '../../users/fbUser';
 import {Game} from "../game";
-import {BsModalRef, BsModalService} from "ngx-bootstrap";
+import {BsModalRef, BsModalService} from "ngx-bootstrap/modal";
 import {AddScoreModalComponent} from "./add-score-modal/add-score-modal.component";
 import {AddGameScoreModalComponent} from "./add-game-score-modal/add-game-score-modal.component";
 import {AuthService} from "../../users/auth.service";

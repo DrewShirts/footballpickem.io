@@ -4,7 +4,7 @@ import { ScheduleComponent } from './schedule.component';
 import { of } from "rxjs";
 import { DataService } from "../../core/data.service";
 import { AuthService } from "../../users/auth.service";
-import { BsModalService } from "ngx-bootstrap";
+import { BsModalService } from "ngx-bootstrap/modal";
 
 describe('ScheduleComponent', () => {
     let component: ScheduleComponent;

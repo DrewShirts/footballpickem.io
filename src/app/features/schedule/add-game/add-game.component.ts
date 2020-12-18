@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { utc } from 'moment';
-import { BsModalRef } from "ngx-bootstrap";
+import { BsModalRef } from "ngx-bootstrap/modal";
 import { DataService } from "../../../core/data.service";
 import { Game } from "../../game";
 import { Form, FormBuilder, FormControl, FormGroup, Validators } from "@angular/forms";

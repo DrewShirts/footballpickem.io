@@ -21,7 +21,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CoreModule } from './core/core.module';
 import { EqualValidatorDirective } from './core/equal-validator.directive';
-import { ModalModule } from "ngx-bootstrap";
+import { ModalModule } from "ngx-bootstrap/modal";
 import { AuthorityGuard } from "./authority.guard";
 import { AdminModule } from "./admin/admin.module";
 import { FooterComponent } from './footer/footer.component';

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import {Game} from "../../game";
-import {BsModalRef} from "ngx-bootstrap";
+import {BsModalRef} from "ngx-bootstrap/modal";
 import {DataService} from "../../../core/data.service";
 import {UserScore} from "../add-score-modal/userScore";
 
